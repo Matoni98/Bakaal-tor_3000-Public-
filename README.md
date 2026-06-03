@@ -29,6 +29,8 @@ Sada skriptů pro automatické stahování a rozesílání **suplování**, **ko
 6. Úspěšně odeslané záznamy uloží do `historie_suplovani.json` (časové razítko odeslání).
 7. Aktualizuje cache.
 
+**Zpráva pro učitele**
+![Popis supl](Supl.jpg)
 ### ✅ Třídnice (`Tridnice.py`)
 
 1. Přihlásí se do Bakalářů.
@@ -44,6 +46,12 @@ Sada skriptů pro automatické stahování a rozesílání **suplování**, **ko
    - **adminovi** – souhrnný report se statistikami.
 9. Pokud je první spuštění v měsíci, přidá třídním učitelkám připomínku, aby zapsaly *„Provedena kontrola třídní knihy“*.
 
+**Zpráva pro učitele**
+![Popis tridnice](tridnice.jpg)
+
+**Zpráva pro správce**
+![Popis Report_tridnice](Report_tridnice.jpg)
+![Popis Report_tridnice2](Report_tridnice2.jpg)
 ### ✅ Neomluvené absence (`Absence.py`)
 
 1. Přihlásí se do Bakalářů.
@@ -56,6 +64,9 @@ Sada skriptů pro automatické stahování a rozesílání **suplování**, **ko
 8. Zaznamená odeslání do cache a do `absence_history.json`.
 9. Speciální seznam `vyjimky.json` umožňuje vyřadit žáky (např. při dlouhodobé nemoci).
 
+**Zpráva pro rodiče**
+
+![Popis Absence](Absence.jpg)
 ### ✅ Měsíční report absencí (`Absence_mail_tridni.py`)
 
 1. Načte `absence_history.json` za posledních 31 dní.
